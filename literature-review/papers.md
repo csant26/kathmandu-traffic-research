@@ -40,3 +40,39 @@ Notes:
 - Focused more on how SUMO should be used rather than what SUMO does, which is an interesting insight.
 - Very meticulous and covers the traffic analysis from mathematical aspect as well.
 - Aims to improve the traffic flow in densely populated areas which is in direct correlation to our study.
+
+### Calibration of SUMO Microscopic Simulation for Heterogeneous Traffic Condition: The Case of the City of Khulna, Bangladesh
+
+Link: https://www.sciencedirect.com/science/article/pii/S2666691X24000551
+
+Notes:
+- Analyses alternate scenarios by proposing alternate road geometries and traffic signals, which I found quite fascinating.
+- Also, the vehicle attributes and data preparation model is really helpful.
+- Also, accounts for driver's response to traffic and driver's mistakes, which may be informative.
+- Contains large volume of mathematical data which could be a bit more out-of-scope for our research. Nevertheless, really useful overall.
+
+### Framework for AI-Driven Traffic Management in Kathmandu
+
+Link: https://www.researchgate.net/publication/392543119_Framework_for_AI-Driven_Traffic_Management_in_Kathmandu
+
+Notes:
+- Similar to our research in the sense that Koteshwor is included in the study area and SUMO is used for simulating the traffic.
+- Data collection is done through visual analysis of site and data from Ministry of Physical Infrastructure and Transport’s offcial website.
+- Doesn't provide the SUMO output or methodology.
+- Promises improvement in case of AI intervention. 
+- Provides multiple instances around the world where AI solutions have been used.
+- We could implement AI as one of the solutions to improving the traffic and leverage this report to cross-check our findings.
+
+
+### Real-Time Traffic Prediction Using Monte Carlo Simulation: A Case Study of Kantipath Road, Kathmandu, Nepal
+
+Link: https://www.nepjol.info/index.php/BIBECHANA/article/view/46394
+
+Notes:
+- Mainly aimed at analysing the vehicles and predicting the traffic flow.
+- Suggests a higher frequency of public transit for optimising the traffic congestion.
+- Uses Sony camera for data collection.
+- Although the process doesn't involve SUMO, this might come in use to reference the traffic scenario.
+
+
+
