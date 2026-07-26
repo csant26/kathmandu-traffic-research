@@ -74,5 +74,15 @@ Notes:
 - Uses Sony camera for data collection.
 - Although the process doesn't involve SUMO, this might come in use to reference the traffic scenario.
 
+### Addressing Traffic Congestion: Strategic Approaches to Public Transport Optimization in Kathmandu
+
+Link: https://easts.info/on-line/proceedings/vol.15/pdf/I_PP4016.pdf
+
+Notes:
+- Takes the established idea that congestion exists and suggests solutions.
+- Analyses the realistic blockers and provides realistic solutions which I really like. Although the solution isn't explored in great depth, they still seem feastible if city administration chooses to act on them.
+- This doesn't involve simulation or data collection, but I like how this poses a different view of traffic congestion.
+- We could take some of the solutions and try to simulate them to stretch the study further.
+- Overall, a nice summary on Kathmandu's traffic congestion.
 
 
