@@ -18,7 +18,7 @@ Link: https://elib.dlr.de/127994/1/08569938.pdf
 
 Notes:
 - Very detailed and clear to follow.
-- Data collection is done via the help of city adiministration.
+- Data collection is done via the help of city administration.
 - Serves as a guide to using SUMO and things that need to be considered while using SUMO.
 - Thorough comprehension of it during the setting up of SUMO will be helpful to us.
 
