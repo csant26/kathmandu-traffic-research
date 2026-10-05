@@ -220,3 +220,7 @@ __marimo__/
 # DS Store
 .DS_Store
 **/.DS_Store
+
+
+# Demo files for learning
+learning-as-you-go/
