@@ -9,8 +9,3 @@
 2. Vehicle types/composition (vtypes.xml) => the types of vehicles that run on our network. We've already decided this from [this](../../data/data-collection.md)
 3. Routes/Trips (.rou.xml) => what vehicle goes where and when.
 4. Config (.sumocfg) => points to the config file that acts as starting point and runs the simulation. 
-
-### A) Network
-
-- We already have a network from OSM.
-- 
