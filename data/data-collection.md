@@ -124,9 +124,9 @@
 - We don't have exact numbers, so we use our own assumption, and we have to triangulate the data.
 - We have to take into consideration that it's our "assumption", hence there's a possibility that the data isn't going to be precise.
 - Assuming:
-i) The three toward-Koteshwor means all reach Koteshwor.
-ii) No U-turn.
-iii) Nobody enters from Tinkune (Koteshwor-Tinkune is one-way. The only way it could enter is from Sinamangal side which is already involved in the count. We couldn't find a separate Tinkune side data)
+  1) The three toward-Koteshwor means all reach Koteshwor.
+  2) No U-turn.
+  3) Nobody enters from Tinkune (Koteshwor-Tinkune is one-way. The only way it could enter is from Sinamangal side which is already involved in the count. We couldn't find a separate Tinkune side data)
 
 | Entries (toward Koteshwor) | Vehicles | Exits (away from Koteshwor) | Vehicles |
 |---------|----------:|-------|----------:|
@@ -162,7 +162,8 @@ The 1,968.5 leaving toward Bhaktapur did not come from Bhaktapur, and nothing en
 - Based on total count of vehicles of Gwarko+Sinamangal, we know 68% of vehicles are from Gwarko in total, so 68% of 1968.5 is from Gwarko.
 - This is just an assumption we've made to figure out the to-from data combinations.
 - Each other exit is split the same way: shared by the entrances that did not come in on that road, in proportion to those entrance totals. The cells in a column add up to that exit. The cells in a row do not add back to that entrance.
-- #Note: Previously, we took Sinamangal to Tinkune count as 1190.5 from website. In the table below, Sinamangal to Tinkune is shown as 384.2. Tinkune as a whole covers both Sinamangal and Baneshwor side. So while 1190.5 vehicles come from Sinamangal/Gaushala side to Tinkune/Koteshwor side, only 384.2 goes to the Tinkune/Baneshwor side based on our count.
+
+**#Note: Previously, we took Sinamangal to Tinkune count as 1190.5 from website. In the table below, Sinamangal to Tinkune is shown as 384.2. Tinkune as a whole covers both Sinamangal and Baneshwor side. So while 1190.5 vehicles come from Sinamangal/Gaushala side to Tinkune/Koteshwor side, only 384.2 goes to the Tinkune/Baneshwor side based on our calculation.**
 
 | From \ To | Gwarko / Balkumari | Bhaktapur | Sinamangal | Tinkune(Baneshwor) | Row sum | Entered |
 |-----------|-------------------:|----------:|-----------:|--------:|--------:|--------:|
@@ -203,9 +204,9 @@ So,
 
 ### Verifying our from-to composition
 
-Let's test data going to Gwarko.
+Let's test the data going to Gwarko.
 
-From above table based on our assumption against real data:
+From the above table, based on our assumption:
 - Bhaktapur → Gwarko, two-wheeler column: 1,116.3
 - Sinamangal → Gwarko, two-wheeler column: 164.5
 - 1,116.3 + 164.5 = **1,280.8 two-wheelers**
@@ -217,15 +218,15 @@ Same for others:
 
 | Exit | | Two-wheeler | Four-wheeler | Tempo | Bus | Other |
 |------|--|------------:|-------------:|------:|----:|------:|
-| Balkumari → Gwarko | Counted | 909 | 676.5 | 5.5 | 175 | 57.5 |
-| | From our cells | 1,280.8 | 401.9 | 0 | 117.6 | 23.2 |
+| Balkumari → Gwarko | Site data | 909 | 676.5 | 5.5 | 175 | 57.5 |
+| | What we derived | 1,280.8 | 401.9 | 0 | 117.6 | 23.2 |
 | | Difference | +371.8 | −274.6 | −5.5 | −57.4 | −34.3 |
 | Koteshwor → Sallaghari | Counted | 1,166.5 | 494 | 0 | 257.5 | 50.5 |
-| | From our cells | 1,081.7 | 675.9 | 12.1 | 156.9 | 41.9 |
-| | Difference | −84.8 | +181.9 | +12.1 | −100.6 | −8.6 |
+| | Site data | 1,081.7 | 675.9 | 12.1 | 156.9 | 41.9 |
+| | What we derived | −84.8 | +181.9 | +12.1 | −100.6 | −8.6 |
 | Sinamangal → Gaushala | Counted | 1,541 | 661 | 0 | 98 | 13 |
-| | From our cells | 1,605.1 | 525.2 | 6.7 | 133.1 | 42.9 |
-| | Difference | +64.1 | −135.8 | +6.7 | +35.1 | +29.9 |
+| | Site data | 1,605.1 | 525.2 | 6.7 | 133.1 | 42.9 |
+| | What we derived | +64.1 | −135.8 | +6.7 | +35.1 | +29.9 |
 
 - The vehicle totals match: 1,488.4 + 335.1 = 1,823.5. The types do not. Our cells put 70.2% two-wheelers on that exit. The site counted 49.8%.
 - This discrepancy exists because there's no way to know for certain which vehicle turns where.
